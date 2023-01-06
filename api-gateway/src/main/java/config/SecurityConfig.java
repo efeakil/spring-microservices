@@ -7,7 +7,6 @@ import org.springframework.security.config.web.server.ServerHttpSecurity;
 import org.springframework.security.web.server.SecurityWebFilterChain;
 
 @Configuration
-
 // We use webFlux annotation because our api-gateway project based on Web Flux not on Web Mvc
 @EnableWebFluxSecurity
 public class SecurityConfig {
